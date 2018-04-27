@@ -1,0 +1,24 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+.container {
+
+}
+.logo {
+  color: MediumAquamarine;
+}
+span {
+}
+.navigation {
+}
+nav {
+
+}
+ul {
+  text-align: right;
+}
+.navigation li {
+  display: inline-block;
+}
