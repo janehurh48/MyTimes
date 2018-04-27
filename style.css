@@ -1,24 +1,75 @@
+/*Header Section*/
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
 }
 .container {
-
+  display: flex;
 }
 .logo {
+  display: flex;
   color: MediumAquamarine;
 }
-span {
-}
 .navigation {
+  display: flex;
 }
 nav {
-
 }
 ul {
   text-align: right;
 }
 .navigation li {
   display: inline-block;
+}
+
+/*Main Section*/
+article {
+  border: medium solid black;
+}
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.main.content {
+  display: inline-block;
+}
+.column.large {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+}
+.column.medium {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.column.small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+.headline {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#main {
+  background: url("resources/images/img-story-main.png");
+  display: flex;
+  font-size: 40px;
+}
+#story2 {
+  background: url("resources/images/img-story-2.png");
+  display: flex;
+}
+#story3 {
+  background: url("resources/images/img-story-3.png");
+  display: flex;
+}
+#story1 {
+  background: url("resources/images/img-story-1.png");
+  display: flex;
 }
