@@ -38,6 +38,7 @@ p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  display: block;
 }
 .main.content {
   display: flex;
@@ -46,7 +47,6 @@ p {
   display: flex;
   flex-direction: column;
   width: 630px;
-  justify-content: flex-start;
 }
 .column.medium {
   display: flex;
@@ -63,21 +63,4 @@ p {
   font-weight: bold;
   font-size: 30px;
   color: white;
-}
-#phish {
-  background: url("resources/images/img-story-main.png");
-  display: flex;
-  font-size: 40px;
-}
-#backwards {
-  background: url("resources/images/img-story-2.png");
-  display: flex;
-}
-#cameras {
-  background: url("resources/images/img-story-3.png");
-  display: flex;
-}
-#cats {
-  background: url("resources/images/img-story-1.png");
-  display: flex;
 }
