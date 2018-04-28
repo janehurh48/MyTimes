@@ -1,31 +1,38 @@
 /*Header Section*/
 header {
+  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-}
-.container {
-  display: flex;
+  border: medium solid black;
+  align-items: center;
 }
 .logo {
   display: flex;
   color: MediumAquamarine;
+  align-items: center;
+}
+.logo span {
+  padding: 10px;
 }
 .navigation {
   display: flex;
+  border: medium solid black;
+  position: relative;
+  left: 600px;
 }
-nav {
-}
-ul {
-  text-align: right;
-}
-.navigation li {
+nav span {
   display: inline-block;
+  border: medium solid black;
+}
+nav span a {
+  color: black;
 }
 
 /*Main Section*/
 article {
   border: medium solid black;
+  display: flex;
 }
 p {
   font-family: Georgia;
@@ -33,12 +40,13 @@ p {
   color: black;
 }
 .main.content {
-  display: inline-block;
+  display: flex;
 }
 .column.large {
   display: flex;
   flex-direction: column;
   width: 630px;
+  justify-content: flex-start;
 }
 .column.medium {
   display: flex;
@@ -56,20 +64,20 @@ p {
   font-size: 30px;
   color: white;
 }
-#main {
+#phish {
   background: url("resources/images/img-story-main.png");
   display: flex;
   font-size: 40px;
 }
-#story2 {
+#backwards {
   background: url("resources/images/img-story-2.png");
   display: flex;
 }
-#story3 {
+#cameras {
   background: url("resources/images/img-story-3.png");
   display: flex;
 }
-#story1 {
+#cats {
   background: url("resources/images/img-story-1.png");
   display: flex;
 }
