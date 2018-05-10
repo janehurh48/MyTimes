@@ -30,3 +30,24 @@ nav span a {
 }
 
 /*Main Section*/
+.main.content {
+  display: flex;
+}
+.column.large {
+  display: flex;
+  flex-flow: column wrap;
+  border: medium solid black;
+  width: 630px;
+}
+.column.medium {
+  display: flex;
+  flex-flow: column wrap;
+  border: medium solid black;
+  width: 300px;
+}
+.column.small {
+  display: flex;
+  flex-flow: column wrap;
+  border: medium solid black;
+  width: 240px;
+}
