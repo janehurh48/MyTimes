@@ -6,22 +6,34 @@ header {
   font-weight: bold;
   border-bottom: medium solid black;
   align-items: center;
+  padding: 15px 0;
 }
 .logo {
   display: flex;
   flex-grow: 1;
   color: MediumAquamarine;
   align-items: center;
+  padding-left: 20px;
+}
+.logo .image {
+  width: 70px;
+  height: 60px;
+  margin-right: 15px;
 }
 .logo span {
-  padding: 10px;
+  padding: 20px 10px;
 }
 .navigation {
   display: flex;
   position: relative;
+  padding-right: 40px;
 }
-nav span {
+.navigation span {
   display: inline-block;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 20px 10px;
 }
 nav span a {
   color: black;
@@ -31,21 +43,25 @@ nav span a {
 .main.content {
   display: flex;
   justify-content: space-between;
+  margin: 15px auto 78px auto;
 }
 .column.large {
   display: flex;
   flex-flow: column;
   width: 630px;
+  margin-right: 20px;
 }
 .column.medium {
   display: flex;
   flex-flow: column;
   width: 300px;
+  margin-right: 20px;
 }
 .column.small {
   display: flex;
   flex-flow: column;
   width: 240px;
+  margin-right: 20px;
 }
 .image-content {
   display: flex;
@@ -53,44 +69,56 @@ nav span a {
   justify-content: center;
   height: 300px;
   text-align: center;
+  margin-top: 15px;
 }
 .image-content span {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  margin-top: 15px;
 }
 .lead-story .image-content {
   background-image: url("resources/images/img-story-main.png");
+  width: 630px;
   height: 300px;
   font-size: 40px;
 }
 .fall-cancelled.image-content{
   background-image: url("resources/images/img-story-2.png");
+  width: 300px;
   height: 300px;
 }
 .camera-erasure.image-content {
   background-image: url("resources/images/img-story-3.png");
+  width: 300px;
   height: 300px;
 }
 .cat-control .image-content {
   background-image: url("resources/images/img-story-1.png");
+  width: 300px;
   height: 300px;
 }
 .narrative {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  padding: 10px;
 }
 .stories {
   display: flex;
   flex-direction: column wrap;
   justify-content: space-between;
+  margin-top: 17px;
 }
 .story {
   display: flex;
   flex-direction: column;
   width: 300px;
+}
+.column-small .cookie {
+  width: 240px;
+  height: auto;
 }
 .news-bites h3 {
   text-align: center;
@@ -113,7 +141,7 @@ footer {
   height: 325px;
   margin: auto;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   background-color: MediumAquamarine;
   margin: auto;
 }
@@ -127,14 +155,18 @@ footer .title {
   font-weight: bold;
   color: white;
   border-right: thick solid white;
-  padding: 10px;
+  padding-right: 30px;
 }
 footer nav {
   display: inline-block;
+  padding: 0 0 15px 30px;
 }
-footer a {
+nav span {
   font-family: Verdana;
   font-size: 12px;
+  padding: 20px 10px;
+}
+footer a {
   color: black;
 }
 .copyright {
